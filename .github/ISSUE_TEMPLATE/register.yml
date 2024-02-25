@@ -14,10 +14,10 @@ body:
     validations:
       required: true
   - type: input
-    id: dns
+    id: dctag
     attributes:
-      label: DNS Record
-      description: Where should the domain point to? You can type in either an IP address or a domain, and it will automatically detect whether to use A, AAAA, or CNAME.
+      label: Discord Tag
+      description: Discord Tag to Invite you to the Development Server
     validations:
       required: true
   - type: checkboxes
