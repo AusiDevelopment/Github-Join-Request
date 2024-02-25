@@ -1,16 +1,16 @@
 name: Ask 4 Join
 description: Register your Ship
-title: "Assk 4 join"
+title: "Ask 4 join"
 labels: []
 projects: []
 assignees: []
 body:
   - type: input
-    id: domain
+    id: github_email
     attributes:
-      label: Subdomain Name
-      description: What subdomain do you want to register? ex. etwas.vienna.skin
-      value: ".vienna.skin"
+      label: Github Email
+      description: We Need the Email to Contact you
+      value: "your.name@example.com"
     validations:
       required: true
   - type: input
@@ -25,7 +25,5 @@ body:
     attributes:
       label: Agreement
       options:
-        - label: I have ensured that no one registered this subdomain
-          required: true
-        - label: I have ensured that I did not reach the 3 subdomain limit
+        - label: im Sure to Join
           required: true
